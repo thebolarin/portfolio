@@ -1,0 +1,355 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #1a202c !important;
+  font-family: "Muli", sans-serif;
+  font-weight: normal;
+  position: relative;
+  color: #f7fafc;
+  transition: font 7s;
+}
+
+section {
+  margin-top: 0;
+}
+html,
+body {
+  width: 100%;
+ 
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.bold {
+  font-weight: bold;
+}
+
+p {
+  line-height: 28px;
+  color: #e2e8f0;
+}
+table th,
+td {
+  font-weight: 400 !important;
+  font-size: 13px;
+}
+
+a {
+  text-decoration: underline !important;
+  color: #4fd1c5 !important;
+}
+
+hr {
+  width: 100%;
+ 
+  border: 0.3px solid #4a5568;
+}
+.landing {
+ 
+  height: 600px;
+  width: 100%;
+  background: url(../img/landing.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.landing .brand h4 {
+
+  padding-top: 40px;
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+}
+.project-head {
+  margin-top: 210px !important;
+}
+.project-head h4 {
+
+  font-size: 23px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+.frame-a {
+  /* background: red; */
+  height: 500px;
+  width: 100%;
+  background: url(../img/Frame1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+
+
+
+.frame-b {
+  /* background: red; */
+  height: 600px;
+  width: 100%;
+  background: url(../img/Frame2.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.frame-c {
+  /* background: red; */
+  height: 600px;
+  width: 100%;
+  background: url(../img/Frame4.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.frame-d {
+  /* background: red; */
+  height: 500px;
+  width: 100%;
+  background: url(../img/Frame3.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.row {
+  margin-top: 90px;
+}
+.sr-a {
+  animation: textanimation 0.7s ease-in-out;
+}
+.sr-a p {
+  font-size: 14px;
+  line-height: 25px;
+ 
+}
+.sr-a h1 {
+  font-size: 35px !important;
+  line-height: 70px;
+  font-family: "Oswald", sans-serif;
+  /* animation: textanimation 1s ease-in-out; */
+}
+@keyframes textanimation {
+  0% {
+    transform: scale(1.5);
+  }
+}
+.sr-a .diff {
+  font-size: 19px;
+  font-family: "Oswald", sans-serif;
+  color: #edf2f7;
+ 
+}
+.landing .brand .sr-a {
+  transition: all 0.4s ease-in-out;
+  position: relative;
+}
+
+.sr-b .pro img {
+  height: 320px;
+  width: 45%;
+  margin-left: 200px;
+  border-radius: 30px;
+  animation: scale 4s linear infinite;
+}
+@keyframes scale {
+  /* 0%{
+    transform: translateZ(.2);
+  } */
+  50% {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+.sr-c .pro img {
+  height: 220px;
+  width: 100%;
+}
+.frame-e .message {
+  width: 50%;
+  margin: auto;
+}
+.frame-e h1 {
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+.frame-e .what {
+  font-size: 19px;
+  font-family: "Oswald", sans-serif;
+  margin-top: 80px;
+}
+.frame-e p {
+  font-size: 14px;
+  text-align: center;
+  /* line-height:25px; */
+}
+.frame-e .link {
+  border-radius: 4px;
+  margin: auto;
+  /* background-color:red; */
+  width: 100px;
+  height: 36px;
+  transition: background-color 1s;
+}
+.frame-e .link:hover {
+  background-color: #285e61;
+}
+.frame-e .bt {
+  color: #4fd1c5 !important;
+  font-weight: 500;
+  /* font-size: 15px;
+
+  vertical-align: middle; */
+  font-family: "Oswald", sans-serif;
+
+  padding: 0 1rem;
+}
+.frame-e {
+  height: 380px;
+  border-top: 0.3px solid #4a5568;
+  border-bottom: 0.3px solid #4a5568;
+}
+
+.frame-f .container {
+  margin-top: 30px;
+  margin-bottom: auto;
+}
+.frame-f ul li {
+  float: right;
+  margin-right: 2px;
+}
+.frame-f ul li a {
+  color: #e2e8f0 !important;
+  text-decoration: none !important ;
+}
+.frame-f .hi {
+  text-align: right;
+  font-size: 14px;
+}
+.frame-f {
+  height: 60px;
+}
+
+.frame-a[data-scroll="in"] {
+  opacity: 1;
+  transition-delay: 1s;
+}
+.frame-a {
+  transition: 1s ease-in-out;
+  opacity: 0;
+}
+/* .frame-b[data-scroll="in"] {
+  opacity: 1;
+  transition-delay: 1s;
+}
+.frame-b {
+  transition: 1s;
+  opacity: 0;
+} */
+.frame-c[data-scroll="in"] {
+  opacity: 1;
+  transition-delay: 1s;
+}
+.frame-c {
+  transition: 1s;
+  opacity: 0;
+}
+.frame-d[data-scroll="in"] {
+  opacity: 1;
+  transition-delay: 1s;
+}
+.frame-d {
+  transition: 1s;
+  opacity: 0;
+}
+.frame-e[data-scroll="in"] {
+  opacity: 1;
+  transition-delay: 1s;
+}
+.frame-e {
+  transition: 1s;
+  opacity: 0;
+}
+.frame-f[data-scroll="in"] {
+  opacity: 1;
+  transition-delay: 1s;
+}
+.frame-f {
+  transition: 1s;
+  opacity: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .project-head h4 {
+    font-size: 20px;
+  }
+  .landing .brand h4 {
+    font-size: 20px;
+  }
+  .landing {
+    height: 350px;
+  }
+ 
+  .frame-a,
+  .frame-b,
+  .frame-c,
+  .frame-d {
+    background: #1a202c;
+  }
+  .landing{
+    background: url(/img/frame5.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .frame-b{
+    margin-top:80px;
+  }
+ 
+  .sr-a h1 {
+    font-size: 25px !important;
+    line-height: 40px;
+    font-family: "Oswald", sans-serif;
+  }
+  .sr-a .diff {
+    font-size: 15px;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .frame-e .message {
+    width: 100%;
+    margin: auto;
+  }
+  .frame-e h1 {
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+  }
+  .frame-e .what {
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    margin-top: 80px;
+  }
+
+  .frame-e {
+    margin-top: 300px;
+    height: 380px;
+  }
+  .frame-f {
+    margin-top: 50px;
+  }
+  .frame-e .link {
+   
+    background-color: #285e61;
+    /* width: 100px;
+    height: 36px;
+    transition: background-color 1s; */
+  }
+  
+}
+
